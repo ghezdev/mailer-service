@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": ".ts",
+  "exec": "rimraf ./dist && tsc && cp -r ./src/views ./dist && ts-node -r ./dist/app.js"
+}
